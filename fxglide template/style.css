@@ -1,0 +1,650 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.banner {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.navbar {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-weight: 550;
+    transition: 0.5s;
+    position: relative;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+}
+
+.dropdown-menu ul li {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown-menu2 {
+    display: none;
+}
+
+.dropdown-menu2 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+}
+
+.dropdown-menu2 ul li {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu2 {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu2 {
+    display: block;
+}
+
+.dropdown-menu3 {
+    display: none;
+}
+
+.dropdown-menu3 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+}
+
+.dropdown-menu3 ul li {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu3 {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu3 {
+    display: block;
+}
+
+.dropdown-menu4 {
+    display: none;
+}
+
+.dropdown-menu4 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+}
+
+.dropdown-menu4 ul li {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu4 {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu4 {
+    display: block;
+}
+
+
+.navbar a:hover {
+    transform: scale(o.1s);
+    color: rgb(185, 169, 22);
+    transition: 0.5s;
+
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-class img {
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 80px;
+    margin-right: 80px;
+
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    margin: 10px 0 0 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.buttons {
+    padding-right: 80px;
+
+}
+
+.button2 {
+    background: khaki;
+}
+
+.button2:hover {
+    color: black;
+    transform: scale(1.02);
+    transition: .1s;
+}
+
+.button1 {
+    position: relative;
+}
+
+.button1:hover {
+    background: khaki;
+    transition: .9s;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 221, 85);
+    width: 80%;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.img img {
+    width: 450px;
+}
+
+.content {
+    padding: 30px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.main h6 {
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+
+.content button {
+    color: rgb(178, 99, 253);
+}
+
+.nd-content {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.nd-content p {
+    width: 650px;
+    align-items: center;
+    margin: auto;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.nd-content h2 {
+    font-family: 'Lucida Sans Unicode';
+}
+
+.nd-content h3 {
+    margin-top: 30px;
+    color: rgb(211, 194, 46);
+    margin-bottom: 12px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.acc-image {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 90px 80px;
+    line-height: 30px;
+
+}
+
+.acc-image1 img {
+    width: 90px;
+    margin: 10px 50px;
+}
+
+.acc-image2 img {
+    width: 90px;
+    margin: 10px 50px;
+}
+
+.acc-image3 img {
+    width: 90px;
+    margin: 10px 50px;
+}
+
+.contenet-fx {
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenet-fx p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vh 17vh;
+    margin-top: -35px;
+
+}
+
+.logo-content1 {
+    border: 1px solid gray;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    transform: scale(1.1s);
+    transition: 0.5s;
+}
+
+.logo-content1 img {
+    width: 20px;
+    border-radius: 18px;
+    border: 1px solid black;
+    background-color: khaki;
+    padding: 10px;
+    border: none;
+}
+
+.logo-content2 {
+    border: 1px solid gray;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.logo-content2 img {
+    width: 20px;
+    border-radius: 18px;
+    border: 1px solid black;
+    background-color: khaki;
+    padding: 10px;
+    border: none;
+}
+
+.logo-content3 {
+    border: 1px solid gray;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.logo-content3 img {
+    width: 20px;
+    border-radius: 18px;
+    border: 1px solid black;
+    background-color: khaki;
+    padding: 10px;
+    border: none;
+}
+
+.logo-content1:hover,
+.logo-content2:hover,
+.logo-content3:hover {
+    transform: scale(0.1s);
+    box-shadow: 0 4px 8px gray
+}
+
+
+.main-content {
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.main-content p {
+    padding-top: 20px;
+}
+
+.main-div {
+    margin-top: 40px;
+    background-color: rgb(236, 221, 85);
+    height: 90vh;
+}
+
+.main-cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    justify-content: end;
+    margin: 0 20vh;
+}
+
+.class-1 {
+    background-color: rgb(187, 186, 186);
+    color: gray;
+    width: 51px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.don-div .class-2 {
+    background-color: rgb(235, 236, 235);
+    color: rgb(31, 167, 13);
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.don-div .class-3 {
+    background-color: rgb(238, 238, 219);
+    color: gray;
+    width: 51px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+    display: inline-flex;
+}
+
+.don-div {
+    display: flex;
+    display: block;
+    word-spacing: 2px;
+
+
+}
+
+.class-4 {
+    background-color: rgb(250, 209, 204);
+    color: rgb(240, 111, 111);
+    width: 51px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+/* .cards h6{
+    background-color: rgb(187, 186, 186);
+    color: gray;
+    width: 51px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+} */
+
+
+.cards h2 {
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.cards p {
+    margin-bottom: 8px;
+}
+
+.cards i {
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.cards {
+    border: 2px solid;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.cards a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    display: block;
+}
+
+.cards button {
+    background: khaki;
+    float: right;
+    margin-top: 70px;
+    width: 146px;
+}
+
+.last-card {
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 60px;
+    width: 60%;
+    position: relative;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: rgb(160, 145, 14);
+    color: white;
+    text-align: center;
+    margin-left: 28vh;
+    margin-top: 30vh;
+    margin-bottom: 35vh;
+}
+
+.last-content img {
+    width: 300px;
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+    margin-left: 30vh;
+}
+
+.last-content {
+    display: flex;
+}
+
+.last-div {
+    background-color: rgb(218, 198, 22);
+}
+
+.element {
+    text-align: center;
+    margin-top: 80px;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 30vh;
+}
+
+.footer-data {
+    display: flex;
+}
+.footer-div{
+    background-color: black;
+}
+
+.footer-data img {
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 80px;
+    margin-right: 80px;
+}
+
+.footer-buttons {
+    font-size: 20px;
+    margin: 10px 0 0 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 90px;
+}
+
+.button3 {
+    background-color: rgb(192, 182, 93);
+}
+
+.button4 {
+    background-color: khaki;
+}
+
+.main-footer-data {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.footer-p1 {
+    width: 29%;
+    font-size: 8px;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-p1 .p2 {
+    margin-top: 10px;
+}
+
+.footer-1st-link {
+    /* display: inline-flex; */
+    flex-direction: column-reverse;
+}
+
+.footer-1st-link,
+.footer-2nd-link {
+    line-height: 50px;
+    color: rgb(192, 182, 93);
+}
+
+.footer-1st-link a,
+.footer-2nd-link a {
+    color: gray;
+
+}
+
+.footer-1st-link h4 a {
+    text-decoration: none;
+}
+
+.footer-last-p {
+    width: 30%;
+}
+.footer-p1 .p3{
+    margin-top: 10px;
+}
+.link1 {
+    margin-top: 10px;
+    font-size: 11px;
+    gap: 40px;
+    display: flex;
+}
+.link1 a{
+    text-decoration: none;
+    color: gray;
+}
+.link1 a:hover{
+    color: rgb(153, 145, 74);
+}
+.footer-last-p{
+    color: gray;
+}
